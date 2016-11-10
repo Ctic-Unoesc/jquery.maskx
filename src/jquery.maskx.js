@@ -28,7 +28,7 @@
 
 				$this[0].type = 'tel';//$this.attr('type','tel');
 
-				$this.bind('keypress, paste', function () {
+				$this.bind('keypress paste', function () {
 					_mascara(this, maskxFunc);
 					$this.removeClass('is-empty');
 				});
